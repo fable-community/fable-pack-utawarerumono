@@ -6,9 +6,9 @@
   "url": "https://github.com/fable-community/example",
   "media": {
     "conflicts": ["anilist:21218"],
-    "popularity": 113000,
     "new": [{
       "id": "mask-of-deception",
+      "popularity": 113000,
       "title": {
         "english": "Utawarerumono: Mask of Deception",
         "romaji": "Utawarerumono: Itsuwari no Kamen",

@@ -6,6 +6,7 @@
   "url": "https://github.com/fable-community/example",
   "media": {
     "conflicts": ["anilist:21218"],
+    "popularity": 113000,
     "new": [{
       "id": "mask-of-deception",
       "title": {
@@ -33,7 +34,6 @@
         "alternative": ["kuon", "Ku (Uta)"]
       },
       "description": "An apothecary that left her hometown with ears and tail like an animal's. She's lively and intelligent, while somehow aloof.\n\nSeparated from her homeland, she encounters Haku while traveling along leisurely.\n\nShe gets excited when it comes to bathing and often ends her sentences with \"-かな～\" or, in English, \"I think\".",
-      "popularity": 1000000000,
       "media": [{
         "mediaId": "mask-of-deception",
         "role": "MAIN"

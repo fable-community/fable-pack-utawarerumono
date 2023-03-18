@@ -1,68 +1,45 @@
 {
   "$schema": "https://fable.deno.dev/schema.json",
-  "id": "example",
-  "title": "Example Pack",
-  "description": "An example pack to demonstrate how to create a manifest",
-  "author": "Fable Community",
-  "image": "https://raw.githubusercontent.com/ker0olos/fable/main/assets/splash.png",
+  "id": "utawarerumono",
+  "title": "Utawarerumono Pack",
+  "author": "ker0olso",
   "url": "https://github.com/fable-community/example",
   "media": {
+    "conflicts": ["anilist:21218"],
     "new": [{
-      "id": "1",
+      "id": "mask-of-deception",
       "title": {
-        "english": "Media"
+        "english": "Utawarerumono: Mask of Deception",
+        "romaji": "Utawarerumono: Itsuwari no Kamen",
+        "native": "うたわれるもの 偽りの仮面",
+        "alternative": ["Utawarerumono: The False Faces"]
       },
-      "description": "An exemplary media",
+      "description": "The only thing I can remember is coming to in the middle of an unfamiliar snowscape. Where that was or how I got there, I don't know. I couldn't even remember my own name. The memories just wouldn't come.\n\nI only had a moment, left at a loss, to ponder what to do — but fate seemed intent on furthering my misery as a giant, insect-like monster burst from the snow and ice to attack me.\n\nNaturally, I ran like hell. The creature cornered me anyway.\n\nThat's when SHE appeared, as if from nowhere — the beautiful, mysterious girl who saved my life.\n\nShe told me her name was Kuon. A beautiful, mysterious girl...\n\n...with a tail and ears like a beast's\n\n(Source: Atlus)",
       "type": "ANIME",
-      "format": "TV",
-      "trailer": {
-        "site": "youtube",
-        "id": "dQw4w9WgXcQ"
-      },
-      "externalLinks": [{
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@example"
-      }],
       "images": [{
-        "url": "https://example.org/media.jpg",
-        "artist": {
-          "username": "ME",
-          "url": "https://example.org"
-        }
-      }],
-      "characters": [{
-        "characterId": "2",
-        "role": "MAIN"
+        "url": "https://s2.vndb.org/cv/68/45668.jpg",
       }]
     }]
   },
   "characters": {
+    "conflicts": ["anilist:126823"],
     "new": [{
-      "id": "2",
-      "age": "less than 420 years",
-      "gender": "Tree probably.. idk..",
+      "id": "kuon",
+      "gender": "Female",
       "name": {
-        "english": "Dave",
-        "native": "Still Dave",
-        "romaji": "Also Dave",
-        "alternative": ["Must be Dave", "Dave the Great", "Dave the Third"]
+        "english": "Kuon",
+        "romaji": "Kuon",
+        "native": "クオン",
+        "alternative": ["kuon","Ku (Uta)"]
       },
-      "description": "The main character of the exemplary media.\n\nIt's a tree called Dave.",
-      "externalLinks": [{
-        "site": "YouTube",
-        "url": "https://www.youtube.com/@davethegreattreegamingchannel"
-      }],
+      "description": "An apothecary that left her hometown with ears and tail like an animal's. She's lively and intelligent, while somehow aloof.\n\nSeparated from her homeland, she encounters Haku while traveling along leisurely.\n\nShe gets excited when it comes to bathing and often ends her sentences with "-かな～" or, in English, "I think".",
       "popularity": 1000000000,
       "media": [{
-        "mediaId": "1",
+        "mediaId": "mask-of-deception",
         "role": "MAIN"
       }],
       "images": [{
-        "url": "https://i.imgur.com/pLptX9c.jpeg",
-        "artist": {
-          "username": "Dave",
-          "url": "https://example.com/dave/dave/dave"
-        }
+        "url": "https://i.imgur.com/ClaapHd.png",
       }]
     }]
   }

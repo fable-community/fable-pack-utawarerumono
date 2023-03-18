@@ -17,7 +17,7 @@
       "description": "The only thing I can remember is coming to in the middle of an unfamiliar snowscape. Where that was or how I got there, I don't know. I couldn't even remember my own name. The memories just wouldn't come.\n\nI only had a moment, left at a loss, to ponder what to do — but fate seemed intent on furthering my misery as a giant, insect-like monster burst from the snow and ice to attack me.\n\nNaturally, I ran like hell. The creature cornered me anyway.\n\nThat's when SHE appeared, as if from nowhere — the beautiful, mysterious girl who saved my life.\n\nShe told me her name was Kuon. A beautiful, mysterious girl...\n\n...with a tail and ears like a beast's\n\n(Source: Atlus)",
       "type": "ANIME",
       "images": [{
-        "url": "https://s2.vndb.org/cv/68/45668.jpg",
+        "url": "https://s2.vndb.org/cv/68/45668.jpg"
       }]
     }]
   },
@@ -30,16 +30,16 @@
         "english": "Kuon",
         "romaji": "Kuon",
         "native": "クオン",
-        "alternative": ["kuon","Ku (Uta)"]
+        "alternative": ["kuon", "Ku (Uta)"]
       },
-      "description": "An apothecary that left her hometown with ears and tail like an animal's. She's lively and intelligent, while somehow aloof.\n\nSeparated from her homeland, she encounters Haku while traveling along leisurely.\n\nShe gets excited when it comes to bathing and often ends her sentences with "-かな～" or, in English, "I think".",
+      "description": "An apothecary that left her hometown with ears and tail like an animal's. She's lively and intelligent, while somehow aloof.\n\nSeparated from her homeland, she encounters Haku while traveling along leisurely.\n\nShe gets excited when it comes to bathing and often ends her sentences with \"-かな～\" or, in English, \"I think\".",
       "popularity": 1000000000,
       "media": [{
         "mediaId": "mask-of-deception",
         "role": "MAIN"
       }],
       "images": [{
-        "url": "https://i.imgur.com/ClaapHd.png",
+        "url": "https://i.imgur.com/ClaapHd.png"
       }]
     }]
   }

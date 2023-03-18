@@ -2,8 +2,10 @@
   "$schema": "https://fable.deno.dev/schema.json",
   "id": "utawarerumono",
   "title": "Utawarerumono Pack",
-  "author": "ker0olso",
-  "url": "https://github.com/fable-community/example",
+  "description": "Contains characters from Utawarerumono: Mask of Deception",
+  "author": "Fable Community",
+  "image": "https://media.tenor.com/n9YTIWj9H-gAAAAC/utawarerumono-kuon.gif",
+  "url": "https://github.com/fable-community/fable-pack-utawarerumono",
   "media": {
     "conflicts": ["anilist:21218"],
     "new": [{

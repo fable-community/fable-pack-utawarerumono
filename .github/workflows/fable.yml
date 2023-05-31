@@ -11,4 +11,5 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
+      - run: deno cache --reload https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts
       - run: deno run -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json

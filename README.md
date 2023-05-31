@@ -1,7 +1,7 @@
 # Utawarerumono
 
 ```
-/packs install github: fable-community/fable-pack-utawarerumono
+/packs install id: utawarerumono
 ```
 
 ![image](https://user-images.githubusercontent.com/52022280/226088184-03544d72-939a-416e-97ef-1bb40545ba6a.png)

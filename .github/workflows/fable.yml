@@ -11,4 +11,17 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - run: deno run --import-map https://raw.githubusercontent.com/ker0olos/fable/main/import_map.json -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts ./manifest.json
+      - run: >
+          deno run
+          --import-map https://raw.githubusercontent.com/ker0olos/fable/main/import_map.json
+          -A https://raw.githubusercontent.com/ker0olos/fable/main/src/validate.ts
+          ./manifest.json
+
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          curl -H 'Content-Type: application/json'
+          -d '{ "tokenType": "Bot", "accessToken": "${{secrets.BOT_TOKEN}}", "manifest": ${cat ./manifest.json} }'
+          -X POST https://fable.deno.dev/community/publish

@@ -19,9 +19,10 @@ jobs:
 
   publish:
     runs-on: ubuntu-latest
+    needs: [validate]
     steps:
       - uses: actions/checkout@v3
-      - run: |
+      - run: >
           curl -H 'Content-Type: application/json'
           -d '{ "tokenType": "Bot", "accessToken": "${{secrets.BOT_TOKEN}}", "manifest": ${cat ./manifest.json} }'
           -X POST https://fable.deno.dev/community/publish
